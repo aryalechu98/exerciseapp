@@ -10,14 +10,14 @@ const App = () => {
   return (
    <div>
     <Router>
-        <Box width={'400px'} sx={{width:{xl:'1488px'}}} m='auto'>
-            <Navbar/>
+        
+           
             <Routes>
                 <Route exact path='/' element={<Home/>} />
                 <Route exact path='/exercise/:id' element={<ExerciseDetail/>}/>
             </Routes>
             <Footer/>
-        </Box>
+  
     </Router>
    </div>
   )
